@@ -205,6 +205,12 @@ A: Yes. Any database in the pool can be configured with the retention policy.
 9.	Q: Can I choose the time at which the backup is created?
 A: No, SQL Database controls the backups schedule in order to minimize the performance impact on your databases.
 
+10. Q: Can I get access to the SQL Database backup files so I can download / restore to SQL Server ?
+A: No, not at this time.
+
+11. Q: Is it possible to have multiple Schedules (Daily , Weekly, Monthly , Yearly) within a SQL Retention Policy 
+A: No, this is only available for Virtal Machine backups at this time.
+
 ## Next steps
 
 Database backups are an essential part of any business continuity and disaster recovery strategy because they protect your data from accidental corruption or deletion. To learn about the other Azure SQL Database business continuity solutions, see [Business continuity overview](sql-database-business-continuity.md).
